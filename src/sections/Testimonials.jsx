@@ -1,7 +1,7 @@
 
 
 
-export const Testamonials = () => {
+export const Testimonials = () => {
     return <section>
 
         
