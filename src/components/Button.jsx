@@ -1,3 +1,5 @@
+import React from "react";
+
 export const Button = ({
   className = "",
   size = "default",
@@ -7,9 +9,9 @@ export const Button = ({
   const baseClasses =
     "relative overflow-hidden rounded-full font-semibold transition-all duration-300 " +
     "focus:outline-none focus-visible:ring-2 focus-visible:ring-[#20b2a6] " +
-    "bg-[#20b2a6] text-white " + // Using your specific hex
-    "hover:brightness-110 " + // Makes the teal look "lit up"
-    "hover:shadow-[0_0_15px_rgba(32,178,166,0.5)] " + // Glow matching #20b2a6
+    "bg-[#20b2a6] text-white " + 
+    "hover:brightness-110 " + 
+    "hover:shadow-[0_0_20px_rgba(32,178,166,0.6)] " + 
     "active:scale-95";
 
   const sizeClasses = {
