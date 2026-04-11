@@ -19,7 +19,7 @@ export const Navbar = () => {
             <nav className="container mx-auto px-6 flex items-center justify-between">
                 <a href="#"
                     className="text-xl font-bold tracking-tight transition-colors hover:text-[#20b2a6]">
-                    Anushka Dilinuwan Wijesinghe<span className="text-primary">.</span>
+                    Anushka Dilinuwan Wijesinghe<span className="text-primary"> </span>
                 </a>
 
                 {/* Desktop Nav (Unchanged) */}

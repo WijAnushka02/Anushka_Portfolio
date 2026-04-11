@@ -31,6 +31,49 @@ export const Hero = () => {
                 ))}
             </div>
 
+            {/* Content */}
+            <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
+                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                    {/* Left Column - Text Content */}
+                    <div className="space-y-8">
+                        <div className="animate-fade-in">
+                            <span className="inline-flex items-center gap-3 px-4 py-2 rounded-full glass text-sm font-medium text-[#20b2a6]">
+                                {/* The Dot Container */}
+                                <span className="relative flex h-2 w-2">
+                                    {/* The Ripple Effect */}
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#20b2a6] opacity-75"></span>
+                                    {/* The Solid Center Dot */}
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-[#20b2a6]"></span>
+                                </span>
+                                Software Engineering Undergraduate • AI/ML Enthusiastic
+                            </span>
+                        </div>
+
+                        {/*Headline*/}
+                        <div className="space-y-4">
+                            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+                                Crafting{' '}
+                                <span className="text-[#20b2a6] drop-shadow-[0_0_15px_rgba(32,178,166,0.5)]">
+                                    Digital
+                                </span>
+                                <br />
+                                Experiences with
+                                <br />
+                                <span className="font-serif italic font-normal text-white">
+                                    Precision ...
+                                </span>
+                            </h1>
+                            <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+                                Hi, I’m Anushka Dilinuwan Wijesinghe — a Software Engineering undergraduate and Full-Stack Developer. I build scalable web applications using React, Next.js, TypeScript, Node.js, and Spring Boot.
+                                I’m also passionate about Data Science, working with Python, Pandas, NumPy, and Scikit-learn to develop data-driven solutions.
+
+                            </p>
+                        </div>
+                    </div>
+                    {/* Right Column - Profile Image */}
+                </div>
+            </div>
+
 
         </section>
     );
