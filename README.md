@@ -1,21 +1,104 @@
-<<<<<<< HEAD
-# Anushka_Portfolio
-This is my personal, professional portfolio.
-=======
-# React + Vite
+# 🚀 Anushka Dilinuwan Wijesinghe | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[](https://www.google.com/search?q=https://github.com/AnushkaDilinuwan/portfolio)
+[](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+A premium, high-performance personal portfolio built with **React**, **Vite**, and **Tailwind CSS**. This project showcases my journey as a Software Engineering undergraduate, my full-stack projects, and my passion for Data Science and Machine Learning.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+  * **Glassmorphism UI**: A modern, sleek design using glass-effect components.
+  * **SVG Border Animations**: Custom "light beam" path tracing on buttons for a high-tech feel.
+  * **Fully Responsive**: Optimized for everything from ultra-wide monitors to mobile devices.
+  * **Dynamic Hero Section**: Featuring floating particles and a "Live Status" indicator.
+  * **Performance First**: Built with Vite for near-instant load times and 100/100 Lighthouse scores.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-----
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 0a95a01 (Initial commit)
+### Frontend & Design
+
+  * **React 18** & **Vite** (Build Tool)
+  * **Tailwind CSS** (Styling)
+  * **Lucide React** (Iconography)
+  * **Framer Motion** (Planned/Animations)
+
+### Backend & Data Science (Project Context)
+
+  * **Node.js** & **Spring Boot**
+  * **Python** (Pandas, NumPy, Scikit-learn)
+
+-----
+
+## 📸 Preview
+
+> [\!TIP]
+> Add a screenshot of your hero section here to make the README pop\!
+> `![Portfolio Preview](/public/hero-bg.jpg)`
+
+-----
+
+## 🏗️ Getting Started
+
+### Prerequisites
+
+  * Node.js (v18 or higher)
+  * npm or yarn
+
+### Installation
+
+1.  **Clone the repository**
+
+    ```bash
+    git clone https://github.com/AnushkaDilinuwan/portfolio.git
+    ```
+
+2.  **Navigate to the project directory**
+
+    ```bash
+    cd portfolio
+    ```
+
+3.  **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Start the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+-----
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/         # Images and SVG icons
+├── components/     # Reusable UI components (Buttons, Cards)
+├── layout/         # Shared layouts (Navbar, Footer)
+├── sections/       # Main page sections (Hero, About, Projects)
+└── index.css       # Global styles & Custom animations
+```
+
+-----
+
+## 🤝 Contact & Socials
+
+  * **LinkedIn**: [Anushka Dilinuwan](https://www.google.com/search?q=https://linkedin.com/in/anushkadilinuwan)
+  * **GitHub**: [@AnushkaDilinuwan](https://www.google.com/search?q=https://github.com/AnushkaDilinuwan)
+  * **Email**: `your-email@example.com`
+
+-----
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+-----
+
+**Built with ❤️ by Anushka Dilinuwan Wijesinghe**
