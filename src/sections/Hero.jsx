@@ -36,7 +36,7 @@ export const Hero = () => {
             {/* Main Content */}
             <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    
+
                     {/* Left Column - Text Content */}
                     <div className="space-y-8">
                         {/* Live Status Badge */}
@@ -64,13 +64,13 @@ export const Hero = () => {
                                     Precision ...
                                 </span>
                             </h1>
-                            
+
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                                 Hi 👋, I’m <span className="text-white font-semibold">Anushka Dilinuwan Wijesinghe.</span>
                                 <br /><br />
-                                Software Engineering undergraduate and Full-Stack Developer 💻. 
+                                Software Engineering undergraduate and Full-Stack Developer 💻.
                                 <br />
-                                I build scalable web applications using React, Next.js, TypeScript, Node.js, and Spring Boot 🚀. 
+                                I build scalable web applications using React, Next.js, TypeScript, Node.js, and Spring Boot 🚀.
                                 <br />
                                 I’m also passionate about Data Science 📊, working with Python, Pandas, NumPy, and Scikit-learn to develop data-driven solutions.
                             </p>
@@ -80,17 +80,52 @@ export const Hero = () => {
                         <div className="flex flex-wrap gap-6 animate-fade-in animation-delay-300">
                             {/* Primary Button */}
                             <Button size="lg" className="group">
-                                Contact Me 
+                                Contact Me
                                 <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                             </Button>
 
                             {/* Specialized Animated CV Button */}
                             <AnimatedBorderButton />
                         </div>
+
+
                     </div>
 
-                    {/* Right Column - Profile Image Placeholder */}
-                    <div className="relative hidden lg:flex justify-center items-center animate-fade-in animation-delay-400">
+                    {/* Right Column - Profile Image */}
+                    <div className="relatice animate-fade-in animation-delay-300">
+                        {/* Profile Image */}
+                        <div className="relative max-w-md mx-auto">
+                            <div
+                                className="absolute inset-0 
+                                        rounded-3xl bg-gradient-to-br 
+                                        from-primary/30 via-transparent 
+                                        to-primary/10 blur-2xl animate-pulse"
+                            />
+                            <div className="relative glass rounded-3xl p-2 glow-border">
+                                <img
+                                    src="/profile-photo (3).png"
+                                    alt="Anushka Dilinuwan Wijesinghe"
+                                    className="w-full aspect-[4/5] object-cover rounded-2xl"
+                                />
+
+                                {/* Floating Badge */}
+                                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
+                                    <div className="flex items-center gap-3">
+                                        <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                                        <span className="text-sm font-medium">
+                                            Available for work
+                                        </span>
+                                    </div>
+                                </div>
+                                {/* Stats Badge */}
+                                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
+                                    <div className="text-2xl font-bold text-primary">5+</div>
+                                    <div className="text-xs text-muted-foreground">
+                                        Years Exp.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
