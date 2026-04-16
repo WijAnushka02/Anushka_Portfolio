@@ -1,7 +1,7 @@
 import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 
 const highlights = [
-    {
+  {
         icon: Code2,
         title: "Clean Code",
         description:
@@ -99,4 +99,5 @@ export const About = () => {
             </div>
         </section>
     );
-};
+
+  
