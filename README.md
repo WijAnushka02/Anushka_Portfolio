@@ -1,104 +1,142 @@
+
+---
+
 # 🚀 Anushka Dilinuwan Wijesinghe | Portfolio
 
-[](https://www.google.com/search?q=https://github.com/AnushkaDilinuwan/portfolio)
-[](https://opensource.org/licenses/MIT)
+A high-performance, production-grade developer portfolio engineered to reflect both **technical capability** and **design thinking**. This project is not just a personal website — it is a carefully structured system that demonstrates how modern frontend architecture, performance optimization, and user experience can be combined into a single cohesive product.
 
-A premium, high-performance personal portfolio built with **React**, **Vite**, and **Tailwind CSS**. This project showcases my journey as a Software Engineering undergraduate, my full-stack projects, and my passion for Data Science and Machine Learning.
+It represents my journey as a **Software Engineering undergraduate at the University of Kelaniya**, with a growing focus on **full-stack development** and **data-driven systems**.
 
-## ✨ Features
+---
 
-  * **Glassmorphism UI**: A modern, sleek design using glass-effect components.
-  * **SVG Border Animations**: Custom "light beam" path tracing on buttons for a high-tech feel.
-  * **Fully Responsive**: Optimized for everything from ultra-wide monitors to mobile devices.
-  * **Dynamic Hero Section**: Featuring floating particles and a "Live Status" indicator.
-  * **Performance First**: Built with Vite for near-instant load times and 100/100 Lighthouse scores.
+## 🎯 Purpose of This Project
 
------
+Most portfolios only display projects. This one is designed to:
+
+* Demonstrate **clean architecture and scalability in frontend systems**
+* Apply **modern UI/UX principles** with real-world usability in mind
+* Showcase **performance-first engineering practices**
+* Act as a **central hub for my work, research, and technical growth**
+
+---
+
+## ✨ Key Highlights
+
+* **Modern Glassmorphism Design System**
+  Built with reusable UI components to maintain consistency and scalability.
+
+* **Advanced Micro-Interactions**
+  Custom SVG border animations and hover states to enhance user engagement without affecting performance.
+
+* **Performance Optimisation**
+
+  * Built using Vite for fast builds and hot reload
+  * Optimised asset loading and minimal bundle size
+  * Structured to achieve high Lighthouse performance scores
+
+* **Responsive Engineering**
+  Designed with a mobile-first approach and tested across multiple screen sizes.
+
+* **Component-Based Architecture**
+  Modular and reusable structure to support future scaling and feature expansion.
+
+---
+
+## 🧠 Engineering Approach
+
+This project follows a **structured frontend architecture**:
+
+* Separation of concerns using `components`, `sections`, and `layout`
+* Reusable UI primitives for consistency
+* Scalable folder structure aligned with industry practices
+* Clean and maintainable styling using utility-first CSS (Tailwind)
+
+Rather than quick implementation, the focus was on **maintainability, readability, and extensibility**.
+
+---
 
 ## 🛠️ Tech Stack
 
-### Frontend & Design
+### Frontend
 
-  * **React 18** & **Vite** (Build Tool)
-  * **Tailwind CSS** (Styling)
-  * **Lucide React** (Iconography)
-  * **Framer Motion** (Planned/Animations)
+* React 18
+* Vite
+* Tailwind CSS
+* Lucide React
 
-### Backend & Data Science (Project Context)
+### Animation & UX
 
-  * **Node.js** & **Spring Boot**
-  * **Python** (Pandas, NumPy, Scikit-learn)
+* Framer Motion (planned integration for advanced transitions)
 
------
+### Backend & Data-Oriented Work
+
+* Node.js
+* Spring Boot
+* Python (Pandas, NumPy, Scikit-learn)
+
+---
+
+## 📊 Future Improvements
+
+This project is actively evolving. Planned enhancements include:
+
+* Integration of **Framer Motion** for smoother animations
+* Adding a **blog section** for technical writing
+* Dynamic project data using a backend or CMS
+* Dark/light theme toggle
+* SEO and accessibility improvements
+
+---
 
 ## 📸 Preview
 
-> [\!TIP]
-> Add a screenshot of your hero section here to make the README pop\!
+> Add a real screenshot here to increase credibility
+> Example:
 > `![Portfolio Preview](/public/hero-bg.jpg)`
 
------
+---
 
 ## 🏗️ Getting Started
 
-### Prerequisites
+```bash
+git clone https://github.com/AnushkaDilinuwan/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
 
-  * Node.js (v18 or higher)
-  * npm or yarn
-
-### Installation
-
-1.  **Clone the repository**
-
-    ```bash
-    git clone https://github.com/AnushkaDilinuwan/portfolio.git
-    ```
-
-2.  **Navigate to the project directory**
-
-    ```bash
-    cd portfolio
-    ```
-
-3.  **Install dependencies**
-
-    ```bash
-    npm install
-    ```
-
-4.  **Start the development server**
-
-    ```bash
-    npm run dev
-    ```
-
------
+---
 
 ## 📁 Project Structure
 
-```text
+```
 src/
-├── assets/         # Images and SVG icons
-├── components/     # Reusable UI components (Buttons, Cards)
-├── layout/         # Shared layouts (Navbar, Footer)
-├── sections/       # Main page sections (Hero, About, Projects)
-└── index.css       # Global styles & Custom animations
+├── assets/         # Static files (images, SVGs)
+├── components/     # Reusable UI components
+├── layout/         # Layout structure (Navbar, Footer)
+├── sections/       # Page sections (Hero, About, Projects)
+└── index.css       # Global styles and animations
 ```
 
------
+---
 
-## 🤝 Contact & Socials
+## 🤝 Connect With Me
 
-  * **LinkedIn**: [Anushka Dilinuwan](https://www.google.com/search?q=https://linkedin.com/in/anushkadilinuwan)
-  * **GitHub**: [@AnushkaDilinuwan](https://www.google.com/search?q=https://github.com/AnushkaDilinuwan)
-  * **Email**: `your-email@example.com`
+* LinkedIn: [https://linkedin.com/in/anushkadilinuwan](https://linkedin.com/in/anushkadilinuwan)
+* GitHub: [https://github.com/AnushkaDilinuwan](https://github.com/AnushkaDilinuwan)
+* Email: [your-email@example.com](mailto:your-email@example.com)
 
------
+---
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License.
 
------
+---
 
-**Built with ❤️ by Anushka Dilinuwan Wijesinghe**
+## 💡 Final Note
+
+This portfolio reflects my current level as a developer — but more importantly, it shows how I think, design, and build systems. It will continue to evolve as I grow in **software engineering, system design, and data science**.
+
+---
+
