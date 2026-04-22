@@ -1,26 +1,78 @@
 @import "tailwindcss";
 
-:root {
-  --color-background: #0f1418;
-  --color-foreground: #f0f2f5;
+/* ─── Default (Dark) Theme ─── */
+:root,
+[data-theme="dark"] {
+  --color-background: #060d08;
+  --color-foreground: #e8f5e9;
 
-  --color-card: #141a1f;
+  --color-card: #0c1a10;
 
-  --color-primary: #20b2a6;
+  --color-primary: #22c55e;
   --color-primary-foreground: #ffffff;
 
-  --color-secondary: #1f2830;
-  --color-secondary-foreground: #20b2a6;
+  --color-secondary: #12241a;
+  --color-secondary-foreground: #22c55e;
 
-  --color-muted: #252e37;
-  --color-muted-foreground: #7a8491;
+  --color-muted: #162a1c;
+  --color-muted-foreground: #6b8f78;
 
-  --color-border: #242b32;
+  --color-border: #1a3322;
 
   --radius: 0.75rem;
 
   --color-highlight: #f5a623;
-  --color-surface: #1a2329;
+  --color-surface: #0e1f13;
+
+  --color-hero-bg: #040a06;
+  --color-hero-overlay: 4, 10, 6;
+  --color-projects-bg: #050c07;
+  --color-projects-card-bg: #0a1a0f;
+  --color-accent-blue: #4ade80;
+  --color-social-bg: rgba(34, 197, 94, 0.06);
+  --color-social-border: rgba(34, 197, 94, 0.15);
+  --color-tag-bg: rgba(34, 197, 94, 0.06);
+  --color-tag-border: rgba(34, 197, 94, 0.12);
+  --color-tag-text: #a7c4b0;
+
+  color-scheme: dark;
+}
+
+/* ─── Light Theme ─── */
+[data-theme="light"] {
+  --color-background: #f0faf2;
+  --color-foreground: #0f2618;
+
+  --color-card: #ffffff;
+
+  --color-primary: #16a34a;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #e0f5e6;
+  --color-secondary-foreground: #16a34a;
+
+  --color-muted: #d5eedd;
+  --color-muted-foreground: #4a7058;
+
+  --color-border: #bce0c5;
+
+  --radius: 0.75rem;
+
+  --color-highlight: #e09000;
+  --color-surface: #e8f5ec;
+
+  --color-hero-bg: #e4f5e8;
+  --color-hero-overlay: 228, 245, 232;
+  --color-projects-bg: #eef8f0;
+  --color-projects-card-bg: #ffffff;
+  --color-accent-blue: #15803d;
+  --color-social-bg: rgba(22, 163, 74, 0.08);
+  --color-social-border: rgba(22, 163, 74, 0.18);
+  --color-tag-bg: rgba(22, 163, 74, 0.08);
+  --color-tag-border: rgba(22, 163, 74, 0.15);
+  --color-tag-text: #1e5631;
+
+  color-scheme: light;
 }
 
 @layer base {
@@ -33,11 +85,15 @@
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Outfit', sans-serif;
 }
 
 .font-serif {
   font-family: 'Playfair Display', serif;
+}
+
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
 }
 
 @layer components {
@@ -53,13 +109,84 @@ body {
     border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
   }
 
+  .glass-card {
+    background-color: color-mix(in srgb, var(--color-surface) 40%, transparent);
+    backdrop-filter: blur(20px);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 10%, transparent);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .glass-card:hover {
+    border-color: color-mix(in srgb, var(--color-primary) 30%, transparent);
+    box-shadow: 0 8px 32px color-mix(in srgb, var(--color-primary) 10%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--color-primary) 8%, transparent);
+    transform: translateY(-4px);
+  }
+
   .glow-text {
     text-shadow: 0 0 30px color-mix(in srgb, var(--color-primary) 50%, transparent);
   }
 
   .glow-border {
-    box-shadow: 0 0 20px color-mix(in srgb, var(--color-primary) 20%, transparent),
-      inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
+    box-shadow: 0 0 25px color-mix(in srgb, var(--color-primary) 25%, transparent),
+      0 0 50px color-mix(in srgb, var(--color-primary) 10%, transparent),
+      inset 0 0 25px color-mix(in srgb, var(--color-primary) 5%, transparent);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-accent-blue), #86efac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .section-divider {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      color-mix(in srgb, var(--color-primary) 30%, transparent),
+      transparent
+    );
+  }
+
+  .gradient-border {
+    position: relative;
+    background: var(--color-card);
+    border-radius: var(--radius);
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--color-primary) 40%, transparent),
+      transparent 50%,
+      color-mix(in srgb, var(--color-accent-blue) 40%, transparent)
+    );
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .gradient-border:hover::before {
+    opacity: 1;
+  }
+
+  .noise-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
   }
 }
 
@@ -75,6 +202,17 @@ body {
       opacity: 1;
       transform: translateY(0);
       filter: blur(0);
+    }
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 
@@ -120,9 +258,49 @@ body {
     }
   }
 
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 0.4;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes gradient-shift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @keyframes border-rotate {
+    from { --angle: 0deg; }
+    to { --angle: 360deg; }
+  }
 
   .animate-fade-in {
     animation: fade-in 0.8s ease-out both;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out both;
   }
 
   .animate-float {
@@ -131,6 +309,26 @@ body {
 
   .animate-marquee {
     animation: marquee 30s linear infinite;
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--color-primary) 15%, transparent),
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 3s ease-in-out infinite;
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-shift 6s ease infinite;
   }
 
   .animation-delay-100 {
@@ -176,14 +374,38 @@ body {
   }
 
   .animated-border:hover {
-    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    background-color: color-mix(in srgb, #22c55e 15%, transparent);
     backdrop-filter: blur(16px);
-    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+    box-shadow: 0 0 20px color-mix(in srgb, #22c55e 20%, transparent);
   }
 
   .timeline-glow {
     box-shadow: 0 0 40px
         color-mix(in srgb, var(--color-primary) 35%, transparent),
       0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
+  }
+
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--color-primary) 30%, transparent);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--color-primary) 50%, transparent);
+  }
+
+  /* Selection */
+  ::selection {
+    background: color-mix(in srgb, var(--color-primary) 30%, transparent);
+    color: var(--color-foreground);
   }
 }
