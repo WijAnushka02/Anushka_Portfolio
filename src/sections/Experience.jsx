@@ -10,8 +10,8 @@ const experiences = [
   },
   {
     period: "2023",
-    role: "Diploma",
-    company: "Digital Solutions Co.",
+    role: "Diploma in Information Technology",
+    company: "Esoft Metro Campus, Gampaha",
     description:
       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
     technologies: ["React", "Redux", "Jest", "Cypress"],
@@ -19,8 +19,8 @@ const experiences = [
   },
   {
     period: "2023",
-    role: "Diploma",
-    company: "Digital Solutions Co.",
+    role: "Diploma in English Language & Literature",
+    company: "Aquinas College, Borella",
     description:
       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
     technologies: ["React", "Redux", "Jest", "Cypress"],
