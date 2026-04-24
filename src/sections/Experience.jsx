@@ -9,9 +9,18 @@ const experiences = [
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2023",
+    role: "Diploma in Information Technology",
+    company: "Esoft Metro Campus, Gampaha",
+    description:
+      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
+    technologies: ["React", "Redux", "Jest", "Cypress"],
+    current: false,
+  },
+  {
+    period: "2023",
+    role: "Diploma in English Language & Literature",
+    company: "Aquinas College, Borella",
     description:
       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
     technologies: ["React", "Redux", "Jest", "Cypress"],
