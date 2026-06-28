@@ -34,7 +34,7 @@ const contactInfo = [
 export const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    email: "", 
     message: "",
   });
   const [isLoading, setIsLoading] = useState(false);

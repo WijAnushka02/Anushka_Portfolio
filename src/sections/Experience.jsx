@@ -5,7 +5,7 @@ const experiences = [
     company: "University of Kelaniya",
     description:
       "Bachelor of Science (Honours) in Software Engineering. ",
-    technologies: ["React", "TypeScript", "Next.js", "MySQL"],
+    technologies: ["Java", "Python", "C", "JavaScript", "TypeScript", "PHP", "HTML5", "CSS3", "React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Tailwind CSS", "Bootstrap", "MySQL", "PostgreSQL", "MongoDB", "Git", "GitHub", "GitHub Actions", "Docker", "REST APIs", "JWT", "Postman", "TestCafe", "Vite", "Maven", "Figma", "Arduino"],
     current: true,
   },
   {
@@ -13,8 +13,9 @@ const experiences = [
     role: "Diploma in Information Technology",
     company: "Esoft Metro Campus, Gampaha",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Gained a fundamental understanding of Computer Science, including HTML, CSS, Python programming, use case diagrams, ER diagrams, flowcharts, basic software design, problem-solving techniques, and core software development concepts."
+    ,
+    technologies: ["HTML", "CSS", "Python", "MySQL", "C#", "Adobe Photoshop"],
     current: false,
   },
   {
@@ -22,8 +23,8 @@ const experiences = [
     role: "Diploma in English Language & Literature",
     company: "Aquinas College, Borella",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Developed proficiency in English language skills, including reading, writing, speaking, and listening. Gained a strong foundation in English literature, grammar, academic writing, communication, critical analysis, and presentation skills through coursework and practical assessments.",
+    technologies: ["Comprehension", "Public Speaking", "Composition", "English Literature", "Creative Writing"],
     current: false,
   },
   {
@@ -31,17 +32,8 @@ const experiences = [
     role: "Advanced Level",
     company: "Royal College Colombo 07",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018",
-    role: "Ordinary Level",
-    company: "Royal College Colombo 07",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Completed the G.C.E. Advanced Level in the Physical Science stream, developing a strong foundation in Mathematics, Physics, Chemistry, analytical thinking, problem-solving, and scientific reasoning.",
+    technologies: ["Combined Mathematics", "Physics", "Chemistry"],
     current: false,
   },
 ];
@@ -105,11 +97,10 @@ export const Experience = () => {
 
                 {/* Content */}
                 <div
-                  className={`pl-8 md:pl-0 ${
-                    idx % 2 === 0
+                  className={`pl-8 md:pl-0 ${idx % 2 === 0
                       ? "md:pr-16 md:text-right"
                       : "md:col-start-2 md:pl-16"
-                  }`}
+                    }`}
                 >
                   <div
                     className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}
@@ -123,9 +114,8 @@ export const Experience = () => {
                       {exp.description}
                     </p>
                     <div
-                      className={`flex flex-wrap gap-2 mt-4 ${
-                        idx % 2 === 0 ? "md:justify-end" : ""
-                      }`}
+                      className={`flex flex-wrap gap-2 mt-4 ${idx % 2 === 0 ? "md:justify-end" : ""
+                        }`}
                     >
                       {exp.technologies.map((tech, techIdx) => (
                         <span
