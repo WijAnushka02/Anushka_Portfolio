@@ -122,7 +122,7 @@ src/
 
 ## 🤝 Connect With Me
 
-* LinkedIn: [https://linkedin.com/in/anushkadilinuwan](https://www.linkedin.com/in/anushka-wijesinghe-85445630a/)
+* LinkedIn: [https://linkedin.com/in/anushka-wijesinghe-85445630a/](https://www.linkedin.com/in/anushka-wijesinghe-85445630a/)
 * GitHub: [https://github.com/WijAnushka02](https://github.com/WijAnushka02)
 * Email: [anushkadilinuwan02@gmail.com](mailto:anushkadilinuwan02@gmail.com)
 
