@@ -122,9 +122,9 @@ src/
 
 ## 🤝 Connect With Me
 
-* LinkedIn: [https://linkedin.com/in/anushkadilinuwan](https://linkedin.com/in/anushkadilinuwan)
-* GitHub: [https://github.com/AnushkaDilinuwan](https://github.com/AnushkaDilinuwan)
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* LinkedIn: [https://linkedin.com/in/anushka-wijesinghe-85445630a/](https://www.linkedin.com/in/anushka-wijesinghe-85445630a/)
+* GitHub: [https://github.com/WijAnushka02](https://github.com/WijAnushka02)
+* Email: [anushkadilinuwan02@gmail.com](mailto:anushkadilinuwan02@gmail.com)
 
 ---
 
