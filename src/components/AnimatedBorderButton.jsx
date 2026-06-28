@@ -2,8 +2,10 @@ import { Download } from "lucide-react";
 
 export const AnimatedBorderButton = () => {
   return (
-    <button
-      className="relative bg-transparent text-foreground group px-8 py-4 text-lg font-medium rounded-full overflow-visible transition-colors duration-300 hover:text-primary focus:outline-none cursor-pointer"
+    <a
+      href="/Anushka Dilinuwan_Intern Software Engineer - CV.pdf"
+      download="Anushka_Dilinuwan_CV.pdf"
+      className="relative bg-transparent text-foreground group px-8 py-4 text-lg font-medium rounded-full overflow-visible transition-colors duration-300 hover:text-primary focus:outline-none cursor-pointer inline-block"
     >
       {/* Animated SVG Border */}
       <svg
@@ -30,6 +32,6 @@ export const AnimatedBorderButton = () => {
         <Download className="w-5 h-5 transition-transform group-hover:-translate-y-1" />
         Download CV
       </span>
-    </button>
+    </a>
   );
 };
