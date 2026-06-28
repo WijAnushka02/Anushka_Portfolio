@@ -4,8 +4,23 @@ const experiences = [
     role: "Undergraduate",
     company: "University of Kelaniya",
     description:
-      "Bachelor of Science (Honours) in Software Engineering. ",
-    technologies: ["Java", "Python", "C", "JavaScript", "TypeScript", "PHP", "HTML5", "CSS3", "React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Tailwind CSS", "Bootstrap", "MySQL", "PostgreSQL", "MongoDB", "Git", "GitHub", "GitHub Actions", "Docker", "REST APIs", "JWT", "Postman", "TestCafe", "Vite", "Maven", "Figma", "Arduino"],
+      "Pursuing a Bachelor of Science (Honours) in Software Engineering with hands-on experience in full-stack web development, software engineering, database systems, cloud computing, DevOps, computer networks, cybersecurity, mobile application development, embedded systems, and UI/UX design. Gaining practical exposure to Data Science through machine learning, data analysis, statistical modelling, and data visualization using Python, Pandas, NumPy, Scikit-learn, Matplotlib, and Power BI.",
+
+    technologies: [
+      "Java",
+      "Python",
+      "C",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Spring Boot",
+      "Node.js",
+      "MySQL",
+      "PostgreSQL",
+      "Git",
+      "Docker",
+      "Power BI"
+    ],
     current: true,
   },
   {
@@ -98,8 +113,8 @@ export const Experience = () => {
                 {/* Content */}
                 <div
                   className={`pl-8 md:pl-0 ${idx % 2 === 0
-                      ? "md:pr-16 md:text-right"
-                      : "md:col-start-2 md:pl-16"
+                    ? "md:pr-16 md:text-right"
+                    : "md:col-start-2 md:pl-16"
                     }`}
                 >
                   <div

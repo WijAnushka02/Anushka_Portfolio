@@ -28,7 +28,7 @@ export const Footer = () => {
                     </div>
 
                     <p className="flex items-center gap-1.5">
-                        © {currentYear} — Built with
+                        © {currentYear} — Anushka Wijesinghe. Made with
                         <Heart className="w-3.5 h-3.5 text-primary fill-primary" />
                         using React & Tailwind CSS
                     </p>

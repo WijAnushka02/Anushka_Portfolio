@@ -147,7 +147,7 @@ export const Hero = () => {
                             <div className="relative rounded-3xl p-[2px] bg-gradient-to-br from-primary/40 via-transparent to-[var(--color-accent-blue)]/40">
                                 <div className="relative glass rounded-3xl p-2 glow-border">
                                     <img
-                                        src="/profile-photo (3).png"
+                                        src="/profile-photo.jpeg"
                                         alt="Anushka Dilinuwan"
                                         className="w-full aspect-[4/5] object-cover rounded-2xl"
                                     />
