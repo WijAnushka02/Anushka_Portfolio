@@ -81,7 +81,7 @@ export const Hero = () => {
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                                     <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                                 </span>
-                                Software Engineering Undergraduate • AI/ML Enthusiast
+                                • Software Engineering Undergraduate • AI/ML Enthusiast
                             </span>
                         </div>
 
@@ -100,11 +100,11 @@ export const Hero = () => {
                             </h1>
 
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200 leading-relaxed">
-                                Hi 👋, I'm <span className="text-foreground font-semibold">Anushka Dilinuwan Wijesinghe.</span>
+                                Hi , I'm <span className="text-foreground font-semibold">Anushka Dilinuwan Wijesinghe.</span>
                                 <br /><br />
-                                Software Engineering undergraduate and Full-Stack Developer 💻.
+                                Software Engineering undergraduate and Full-Stack Developer.
                                 <br />
-                                I build scalable web applications using React, Next.js, TypeScript, and Spring Boot 🚀.
+                                I build scalable web applications using React, Next.js, TypeScript, and Spring Boot.
                             </p>
                         </div>
 
