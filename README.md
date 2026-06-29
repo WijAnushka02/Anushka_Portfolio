@@ -1,142 +1,171 @@
+# 🚀 Anushka Dilinuwan Wijesinghe | Developer Portfolio
+
+A modern, responsive developer portfolio built to showcase my projects, technical skills, and software engineering journey.
+
+The portfolio focuses on **clean UI design, reusable React components, responsive layouts, and maintainable frontend architecture**, providing a professional introduction to my work as a **B.Sc. (Hons) Software Engineering undergraduate at the University of Kelaniya**.
 
 ---
 
-# 🚀 Anushka Dilinuwan Wijesinghe | Portfolio
+## 🌐 Live Demo
 
-A high-performance, production-grade developer portfolio engineered to reflect both **technical capability** and **design thinking**. This project is not just a personal website — it is a carefully structured system that demonstrates how modern frontend architecture, performance optimization, and user experience can be combined into a single cohesive product.
-
-It represents my journey as a **Software Engineering undergraduate at the University of Kelaniya**, with a growing focus on **full-stack development** and **data-driven systems**.
+**Portfolio:** https://anushka-portfolio-eight.vercel.app
 
 ---
 
-## 🎯 Purpose of This Project
+## 📌 About
 
-Most portfolios only display projects. This one is designed to:
+This portfolio serves as a central place to present:
 
-* Demonstrate **clean architecture and scalability in frontend systems**
-* Apply **modern UI/UX principles** with real-world usability in mind
-* Showcase **performance-first engineering practices**
-* Act as a **central hub for my work, research, and technical growth**
+* Software Engineering projects
+* Technical skills
+* Experience
+* Education
+* Certifications
+* Contact information
 
----
-
-## ✨ Key Highlights
-
-* **Modern Glassmorphism Design System**
-  Built with reusable UI components to maintain consistency and scalability.
-
-* **Advanced Micro-Interactions**
-  Custom SVG border animations and hover states to enhance user engagement without affecting performance.
-
-* **Performance Optimisation**
-
-  * Built using Vite for fast builds and hot reload
-  * Optimised asset loading and minimal bundle size
-  * Structured to achieve high Lighthouse performance scores
-
-* **Responsive Engineering**
-  Designed with a mobile-first approach and tested across multiple screen sizes.
-
-* **Component-Based Architecture**
-  Modular and reusable structure to support future scaling and feature expansion.
+The project was built with scalability and maintainability in mind using a component-based architecture.
 
 ---
 
-## 🧠 Engineering Approach
+## ✨ Features
 
-This project follows a **structured frontend architecture**:
-
-* Separation of concerns using `components`, `sections`, and `layout`
-* Reusable UI primitives for consistency
-* Scalable folder structure aligned with industry practices
-* Clean and maintainable styling using utility-first CSS (Tailwind)
-
-Rather than quick implementation, the focus was on **maintainability, readability, and extensibility**.
+* Modern glassmorphism-inspired interface
+* Fully responsive design for desktop, tablet, and mobile
+* Smooth navigation between sections
+* Animated SVG button borders
+* Interactive hover effects
+* Reusable React components
+* Clean folder structure
+* Fast development with Vite
+* Optimized asset loading
+* Easy to maintain and extend
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 ### Frontend
 
 * React 18
 * Vite
+* JavaScript (ES6+)
 * Tailwind CSS
+* HTML5
+* CSS3
+
+### Icons
+
 * Lucide React
 
-### Animation & UX
+### Development Tools
 
-* Framer Motion (planned integration for advanced transitions)
+* Git
+* GitHub
+* VS Code
+* npm
 
-### Backend & Data-Oriented Work
+### Deployment
 
-* Node.js
-* Spring Boot
-* Python (Pandas, NumPy, Scikit-learn)
+* Vercel
 
 ---
 
-## 📊 Future Improvements
+## 📂 Project Structure
 
-This project is actively evolving. Planned enhancements include:
+```text
+src/
+│
+├── assets/
+├── components/
+├── layout/
+├── sections/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
 
-* Integration of **Framer Motion** for smoother animations
-* Adding a **blog section** for technical writing
-* Dynamic project data using a backend or CMS
-* Dark/light theme toggle
-* SEO and accessibility improvements
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/WijAnushka02/Anushka_Portfolio.git
+```
+
+Navigate into the project
+
+```bash
+cd Anushka_Portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📈 Future Improvements
+
+* Blog section
+* Project filtering
+* Better accessibility (WCAG improvements)
+* SEO optimization
+* Dynamic project data
 
 ---
 
 ## 📸 Preview
 
-> Add a real screenshot here to increase credibility
-> Example:
-> `![Portfolio Preview](/public/hero-bg.jpg)`
+> Add a screenshot of the homepage here.
 
----
-
-## 🏗️ Getting Started
-
-```bash
-git clone https://github.com/AnushkaDilinuwan/portfolio.git
-cd portfolio
-npm install
-npm run dev
-```
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── assets/         # Static files (images, SVGs)
-├── components/     # Reusable UI components
-├── layout/         # Layout structure (Navbar, Footer)
-├── sections/       # Page sections (Hero, About, Projects)
-└── index.css       # Global styles and animations
+```md
+![Portfolio Preview](./public/preview.png)
 ```
 
 ---
 
 ## 🤝 Connect With Me
 
-* LinkedIn: [https://linkedin.com/in/anushka-wijesinghe-85445630a/](https://www.linkedin.com/in/anushka-wijesinghe-85445630a/)
-* GitHub: [https://github.com/WijAnushka02](https://github.com/WijAnushka02)
-* Email: [anushkadilinuwan02@gmail.com](mailto:anushkadilinuwan02@gmail.com)
+**LinkedIn**
+
+https://www.linkedin.com/in/anushka-wijesinghe-85445630a/
+
+**GitHub**
+
+https://github.com/WijAnushka02
+
+**Email**
+
+[anushkadilinuwan02@gmail.com](mailto:anushkadilinuwan02@gmail.com)
 
 ---
 
-## 📜 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 💡 Final Note
+## ⭐ Support
 
-This portfolio reflects my current level as a developer — but more importantly, it shows how I think, design, and build systems. It will continue to evolve as I grow in **software engineering, system design, and data science**.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 ---
 
+Built by **Anushka Dilinuwan Wijesinghe**
