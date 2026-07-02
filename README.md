@@ -134,9 +134,7 @@ npm run build
 
 > Add a screenshot of the homepage here.
 
-```md
 ![Portfolio Preview](./public/preview.png)
-```
 
 ---
 
@@ -153,12 +151,6 @@ https://github.com/WijAnushka02
 **Email**
 
 [anushkadilinuwan02@gmail.com](mailto:anushkadilinuwan02@gmail.com)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
